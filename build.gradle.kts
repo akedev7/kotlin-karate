@@ -7,10 +7,11 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven { url = uri("https://oss.sonatype.org/content/repositories/releases/") }
 }
 
 dependencies {
-    testImplementation("com.intuit.karate:karate-junit5:1.4.1")
+    testImplementation("io.karatelabs:karate-junit5:1.5.2.RC2")
 }
 
 tasks.test {
