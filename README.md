@@ -12,8 +12,8 @@ Ensure you have the following installed:
 
 ### **2️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/karate-api-test.git
-cd karate-api-test
+git clone https://github.com/akedev7/kotlin-karate
+cd kotlin-karate
 ```
 
 ### **3️⃣ Install Dependencies**
